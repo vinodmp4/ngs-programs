@@ -1,0 +1,14 @@
+grep -f pathogenesis_blast_loc.txt logFC_A1vA7.txt > logFC_pathogenesis_A1vA7.txt
+grep -f pathogenesis_blast_loc.txt logFC_A7vB7.txt > logFC_pathogenesis_A7vB7.txt
+grep -f pathogenesis_blast_loc.txt logFC_B7vB10.txt > logFC_pathogenesis_B7vB10.txt
+grep -f pathogenesis_blast_loc.txt logFC_A1vB1.txt > logFC_pathogenesis_A1vB1.txt
+grep -f pathogenesis_blast_loc.txt logFC_B1vB10.txt > logFC_pathogenesis_B1vB10.txt
+grep -f pathogenesis_blast_loc.txt logFC_P1vA7.txt > logFC_pathogenesis_P1vA7.txt
+grep -f pathogenesis_blast_loc.txt logFC_A10vB10.txt > logFC_pathogenesis_A10vB10.txt
+grep -f pathogenesis_blast_loc.txt logFC_A1vP1.txt > logFC_pathogenesis_A1vP1.txt
+grep -f pathogenesis_blast_loc.txt logFC_B1vB7.txt > logFC_pathogenesis_B1vB7.txt
+grep -f pathogenesis_blast_loc.txt logFC_P1vP2.txt > logFC_pathogenesis_P1vP2.txt
+grep -f pathogenesis_blast_loc.txt logFC_A1vA10.txt > logFC_pathogenesis_A1vA10.txt
+grep -f pathogenesis_blast_loc.txt logFC_A7vA10.txt > logFC_pathogenesis_A7vA10.txt
+grep -f pathogenesis_blast_loc.txt logFC_B1vP2.txt > logFC_pathogenesis_B1vP2.txt
+grep -f pathogenesis_blast_loc.txt logFC_P2vB7.txt > logFC_pathogenesis_P2vB7.txt

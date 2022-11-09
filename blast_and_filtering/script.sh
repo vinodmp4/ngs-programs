@@ -1,0 +1,9 @@
+blastn -db ./A1/A1 -query pathogenesis.fasta -out A1_blastn_pathogenesis.txt -outfmt 6 -max_target_seqs 5
+blastn -db ./A7/A7 -query pathogenesis.fasta -out A7_blastn_pathogenesis.txt -outfmt 6 -max_target_seqs 5
+blastn -db ./A10/A10 -query pathogenesis.fasta -out A10_blastn_pathogenesis.txt -outfmt 6 -max_target_seqs 5
+blastn -db ./B1/B1 -query pathogenesis.fasta -out B1_blastn_pathogenesis.txt -outfmt 6 -max_target_seqs 5
+blastn -db ./B7/B7 -query pathogenesis.fasta -out B7_blastn_pathogenesis.txt -outfmt 6 -max_target_seqs 5
+blastn -db ./B10/B10 -query pathogenesis.fasta -out B10_blastn_pathogenesis.txt -outfmt 6 -max_target_seqs 5
+blastn -db ./P1/P1 -query pathogenesis.fasta -out P1_blastn_pathogenesis.txt -outfmt 6 -max_target_seqs 5
+blastn -db ./P2/P2 -query pathogenesis.fasta -out P2_blastn_pathogenesis.txt -outfmt 6 -max_target_seqs 5
+cat A1_blastn_pathogenesis.txt P1_blastn_pathogenesis.txt A7_blastn_pathogenesis.txt A10_blastn_pathogenesis.txt B1_blastn_pathogenesis.txt P2_blastn_pathogenesis.txt B7_blastn_pathogenesis.txt B10_blastn_pathogenesis.txt > all_pathogenesis_blastn.txt
